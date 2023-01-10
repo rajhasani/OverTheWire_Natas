@@ -6,7 +6,7 @@ When I hit the "refresh page" link below this, the message changes to:
 
 The refresh link on the page takes me to index.php on this subdomain, and is subsequently a clue: the web app is keeping track of what URL is being used to access the page. If we can spoof the URL that is being used to access the page, then we can trick it to think we're on the natas5 subdomain. 
 
-This can be accomplished by modifying the Referer request header; we can either use a tool/extension, or we can use a curl call on a CLI. To test the normal response from a curl call:
+This can be accomplished by modifying the Referer request header. Using the browser inspector, we can see in the request headers that the Referer is currently set to `http://natas4.natas.labs.overthewire.org/`, when we need this changed to the natas5 subdomain address. To make the swap, we can either use a tool/extension, or we can use a curl call on a CLI. To test the normal response from a curl call:
 
 **`raj@arch:~$ curl -u natas4:tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm natas4.natas.labs.overthewire.org`**  
 ```
