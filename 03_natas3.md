@@ -10,7 +10,7 @@ Not even Google will find it this time? Meaning that it has been *willfully excl
 *`User-agent: *`*  
 *`Disallow: /s3cr3t/`*  
 
-So the robots.txt file has explicitly disallowed search engines from indexing a directory/file located at /s3cr3t/:
+So the robots.txt file has explicitly disallowed search engines from indexing a directory located at /s3cr3t/:
 
 **`natas3.natas.labs.overthewire.org/s3cr3t/`**  
 
