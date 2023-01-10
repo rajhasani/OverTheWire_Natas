@@ -32,7 +32,7 @@ Access disallowed. You are visiting from "" while authorized users should come o
 </html>
 ```
 
-This gives us the HTML source of the page. Now let's modify our curl call to spoof the Referer request header:
+This gives us the HTML source of the page. Now let's modify our `curl` call to spoof the Referer request header:
 
 **`raj@arch:~$ curl -u natas4:tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm --referer "http://natas5.natas.labs.overthewire.org/" natas4.natas.labs.overthewire.org`**  
 ```
