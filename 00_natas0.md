@@ -4,7 +4,7 @@ Upon logging in, we're given our first instructions:
 
 ***You can find the password for the next level on this page.***  
 
-I don't see anything on the page itself, so let's check the HTML. Right-click and "view source", or hit Ctrl+U in Chrome. 
+I don't see anything on the page itself, so let's check the HTML. Right-click and "View Page Source", or hit Ctrl+U. 
 
 Towards the bottom of the HTML, we see a comment:
 
