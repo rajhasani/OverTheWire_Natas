@@ -32,3 +32,7 @@ Lets take a look at these functions. Methodically speaking, our input is first e
 *`3d3d516343746d4d6d6c315669563362`*  
 **`raj@arch:~$ xxd -r -p natas8 natas8bin; cat natas8bin | rev | base64 -d`**  
 *`oubWYf2kBq`*   
+
+Now that we have our derived secret, let's plug that into the input field:
+
+*`Access granted. The password for natas9 is Sda6t0vkOPkM8YeOZkAGVhFoaplvlJFd`*  
